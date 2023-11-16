@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="64082ff0-6ec1-4452-ae2a-c1b40023b43d" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetAccountHoldersQuery</name>
+  <display>GetAccountHoldersQuery: AccountHolderDto[*]</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="57fc44c1-5d52-4dc7-bfc2-88e79276d811">
+    <typeId>3a98a103-26d2-46bc-ac45-818036f12213</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>true</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>BankAccountManagementSystem.Services</typePackageName>
+    <typePackageId>bbdf0ecb-fd46-4f81-948b-7fab7360b871</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>b6d9a51e-403b-467d-a4c7-37c576fb25eb</applicationId>
+    <metadataId>6ab29b31-27af-4f56-a67c-986d82097d63</metadataId>
+    <mappingSettingsId>50c4872d-f029-48ec-a818-58b426e8166a</mappingSettingsId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
+    <mappedPath>
+      <target id="3b4d53e7-2169-4edd-84d0-db6fde02026d" name="AccountHolder" type="element" specialization="Class" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>3adc608a-e202-47f2-aaa6-1eb9666db9cc</parentFolderId>
+  <packageId>bbdf0ecb-fd46-4f81-948b-7fab7360b871</packageId>
+  <packageName>BankAccountManagementSystem.Services</packageName>
+  <stereotypes />
+  <metadata>
+    <entry key="baseName" value="AccountHolders" />
+  </metadata>
+  <childElements />
+</class>

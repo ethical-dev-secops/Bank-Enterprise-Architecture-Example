@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{BAAD29BA-331A-4431-8C9B-8DCDC7E4500E}"
+EndProject
+Project("{FFD54A85-9362-48AC-B646-C93AB9AC63D2}") = "BankAccountManagementSystem.Api", "BankAccountManagementSystem.Api\BankAccountManagementSystem.Api.csproj", "{2DF7398C-D12F-4098-B598-29EA0710FA8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{1FC23C22-35DC-4B3C-8E89-72637E9C23D9}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "BankAccountManagementSystem.Application", "BankAccountManagementSystem.Application\BankAccountManagementSystem.Application.csproj", "{E2DC4F8F-EFC3-4561-B637-71EFBD50D5B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{2AB5CC01-2337-4834-8FA7-80786536F558}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "BankAccountManagementSystem.Domain", "BankAccountManagementSystem.Domain\BankAccountManagementSystem.Domain.csproj", "{F1709C2D-03BA-4963-AB62-CC4862791014}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{A602D9A5-C23A-4EA0-86A4-88776F9532BF}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "BankAccountManagementSystem.Infrastructure", "BankAccountManagementSystem.Infrastructure\BankAccountManagementSystem.Infrastructure.csproj", "{79AC7301-27BD-4442-938B-69FE1815DD41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{374E03EB-281A-4800-BBAE-7CAFBB671F9C}"
+EndProject
+Project("{52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE}") = "BankAccountManagementSystem.Application.Tests", "BankAccountManagementSystem.Application.Tests\BankAccountManagementSystem.Application.Tests.csproj", "{AB803722-5EB8-4D74-BAA8-E426A7BAC4B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DF7398C-D12F-4098-B598-29EA0710FA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF7398C-D12F-4098-B598-29EA0710FA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF7398C-D12F-4098-B598-29EA0710FA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF7398C-D12F-4098-B598-29EA0710FA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DC4F8F-EFC3-4561-B637-71EFBD50D5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DC4F8F-EFC3-4561-B637-71EFBD50D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DC4F8F-EFC3-4561-B637-71EFBD50D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DC4F8F-EFC3-4561-B637-71EFBD50D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1709C2D-03BA-4963-AB62-CC4862791014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1709C2D-03BA-4963-AB62-CC4862791014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1709C2D-03BA-4963-AB62-CC4862791014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1709C2D-03BA-4963-AB62-CC4862791014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AC7301-27BD-4442-938B-69FE1815DD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AC7301-27BD-4442-938B-69FE1815DD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AC7301-27BD-4442-938B-69FE1815DD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AC7301-27BD-4442-938B-69FE1815DD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB803722-5EB8-4D74-BAA8-E426A7BAC4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB803722-5EB8-4D74-BAA8-E426A7BAC4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB803722-5EB8-4D74-BAA8-E426A7BAC4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB803722-5EB8-4D74-BAA8-E426A7BAC4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DF7398C-D12F-4098-B598-29EA0710FA8D} = {BAAD29BA-331A-4431-8C9B-8DCDC7E4500E}
+		{E2DC4F8F-EFC3-4561-B637-71EFBD50D5B3} = {1FC23C22-35DC-4B3C-8E89-72637E9C23D9}
+		{F1709C2D-03BA-4963-AB62-CC4862791014} = {2AB5CC01-2337-4834-8FA7-80786536F558}
+		{79AC7301-27BD-4442-938B-69FE1815DD41} = {A602D9A5-C23A-4EA0-86A4-88776F9532BF}
+		{AB803722-5EB8-4D74-BAA8-E426A7BAC4B4} = {374E03EB-281A-4800-BBAE-7CAFBB671F9C}
+	EndGlobalSection
+EndGlobal

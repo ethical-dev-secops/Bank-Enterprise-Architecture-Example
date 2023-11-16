@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="09ce9ede-c96e-4307-9d3a-b991c1be9516" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>ChequeAccount</name>
+  <display>ChequeAccount : Account</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</parentFolderId>
+  <packageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</packageId>
+  <packageName>BankAccountManagementSystem.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="c45088a2-58bb-4eea-9059-381c19295ec3" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Type</name>
+      <display>Type: ChequeAccountType</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="6773ffae-692e-4be7-a67c-89583c66834d">
+        <typeId>15a0eaed-6542-4241-9b29-19cf2e85a413</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+        <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>09ce9ede-c96e-4307-9d3a-b991c1be9516</parentFolderId>
+      <packageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</packageId>
+      <packageName>BankAccountManagementSystem.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

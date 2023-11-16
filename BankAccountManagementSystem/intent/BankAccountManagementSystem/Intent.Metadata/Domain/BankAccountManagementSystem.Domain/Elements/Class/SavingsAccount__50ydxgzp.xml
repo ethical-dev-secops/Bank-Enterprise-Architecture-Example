@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="dae3c948-8335-4124-a8cd-ba4755b9a93c" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>SavingsAccount</name>
+  <display>SavingsAccount : Account</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</parentFolderId>
+  <packageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</packageId>
+  <packageName>BankAccountManagementSystem.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="e7b394e4-f9e8-4063-a08f-ce5f7a56c5bb" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Type</name>
+      <display>Type: SavingsAccountType</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="fa817f0f-7240-478b-9c97-1365f0e7b863">
+        <typeId>faba6b00-a786-489f-9aba-3d91591ebd96</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+        <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>dae3c948-8335-4124-a8cd-ba4755b9a93c</parentFolderId>
+      <packageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</packageId>
+      <packageName>BankAccountManagementSystem.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

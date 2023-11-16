@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="f5e55bff-68cc-4e9a-bf5e-b6093315395f">
+  <sourceEnd id="f4b87d3c-25e7-4036-9a01-630e06424050" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Accounts</name>
+    <display>Accounts: Account[*]</display>
+    <order>0</order>
+    <typeReference id="916ed679-b260-4261-b106-379ac4977969">
+      <typeId>0b1a3393-bffc-4ce4-aa3d-6ba6213b3f3d</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+      <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="f5e55bff-68cc-4e9a-bf5e-b6093315395f" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>AccountHolder</name>
+    <display>AccountHolder: AccountHolder   [* --&gt; 1]</display>
+    <order>4</order>
+    <typeReference id="591f9b91-67a1-463f-831a-f5932d95e233">
+      <typeId>3b4d53e7-2169-4edd-84d0-db6fde02026d</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+      <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="15a0eaed-6542-4241-9b29-19cf2e85a413" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>ChequeAccountType</name>
+  <display>ChequeAccountType</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</parentFolderId>
+  <packageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</packageId>
+  <packageName>BankAccountManagementSystem.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

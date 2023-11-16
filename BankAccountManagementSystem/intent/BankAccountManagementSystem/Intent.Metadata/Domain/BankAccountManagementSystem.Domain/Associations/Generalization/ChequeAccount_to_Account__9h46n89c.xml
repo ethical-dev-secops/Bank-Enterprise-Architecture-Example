@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="3c764989-ad64-4aee-af57-ed19c55b6b8d">
+  <sourceEnd id="af4c9bf6-fee3-47de-a676-0e7670c4f6ce" type="Generalization Source End" typeId="8190bf43-222c-4b53-8a44-14626efe3574">
+    <name>ChequeAccount</name>
+    <display>ChequeAccount: ChequeAccount</display>
+    <order>0</order>
+    <typeReference id="94d6bcb7-7f73-455a-b6b6-da35baec909e">
+      <typeId>09ce9ede-c96e-4307-9d3a-b991c1be9516</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+      <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="3c764989-ad64-4aee-af57-ed19c55b6b8d" type="Generalization Target End" typeId="4686cc1d-b4d8-4b99-b45b-f77bd5496946">
+    <name>Account</name>
+    <display>Account: Account</display>
+    <order>1</order>
+    <typeReference id="6370dc84-7d88-4576-860e-78704d1122bf">
+      <typeId>0b1a3393-bffc-4ce4-aa3d-6ba6213b3f3d</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+      <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Generalization</associationType>
+  <associationTypeId>5de35973-3ac7-4e65-b48c-385605aec561</associationTypeId>
+  <stereotypes />
+</association>

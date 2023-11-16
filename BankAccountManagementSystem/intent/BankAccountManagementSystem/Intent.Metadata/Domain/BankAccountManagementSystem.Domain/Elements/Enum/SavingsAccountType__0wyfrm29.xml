@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="faba6b00-a786-489f-9aba-3d91591ebd96" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>SavingsAccountType</name>
+  <display>SavingsAccountType</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</parentFolderId>
+  <packageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</packageId>
+  <packageName>BankAccountManagementSystem.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="b2f57584-fe89-4117-bc9a-0dd394dbab97" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Extensions</name>
+  <display>Extensions</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>ab803722-5eb8-4d74-baa8-e426a7bac4b4</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="663bce7d-849b-46ac-b158-1f073ad87f46" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.Application.MediatR.CRUD.Tests.Extensions.RepositoryExtensions</name>
+      <display>Intent.Application.MediatR.CRUD.Tests.Extensions.RepositoryExtensions</display>
+      <externalReference>Intent.Application.MediatR.CRUD.Tests</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>b2f57584-fe89-4117-bc9a-0dd394dbab97</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

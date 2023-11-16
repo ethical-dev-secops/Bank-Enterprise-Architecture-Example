@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="44400590-c706-4a35-aca7-73a6d847bcd2">
+  <sourceEnd id="5ce573f7-980c-4950-9b90-8e270d609b08" type="Generalization Source End" typeId="8190bf43-222c-4b53-8a44-14626efe3574">
+    <name>SavingsAccount</name>
+    <display>SavingsAccount: SavingsAccount</display>
+    <order>0</order>
+    <typeReference id="1bc03d46-9e12-4ebc-93bf-281105a5e44e">
+      <typeId>dae3c948-8335-4124-a8cd-ba4755b9a93c</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+      <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="44400590-c706-4a35-aca7-73a6d847bcd2" type="Generalization Target End" typeId="4686cc1d-b4d8-4b99-b45b-f77bd5496946">
+    <name>Account</name>
+    <display>Account: Account</display>
+    <order>1</order>
+    <typeReference id="8df03756-3ea3-4fa4-b009-ebd56c761143">
+      <typeId>0b1a3393-bffc-4ce4-aa3d-6ba6213b3f3d</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BankAccountManagementSystem.Domain</typePackageName>
+      <typePackageId>1b6813dd-337d-428d-b1e5-028bac3c3aa4</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Generalization</associationType>
+  <associationTypeId>5de35973-3ac7-4e65-b48c-385605aec561</associationTypeId>
+  <stereotypes />
+</association>
